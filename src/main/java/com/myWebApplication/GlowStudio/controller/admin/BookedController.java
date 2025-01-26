@@ -21,10 +21,10 @@ public class BookedController {
 	
 	
 	
-	public BookedController(BookedServices bookedService) {
-		super();
-		this.bookedService = bookedService;
-	}
+//	public BookedController(BookedServices bookedService) {
+//		super();
+//		this.bookedService = bookedService;
+//	}
 
 
 

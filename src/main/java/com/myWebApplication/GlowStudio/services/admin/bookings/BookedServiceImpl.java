@@ -19,7 +19,7 @@ import com.myWebApplication.GlowStudio.repository.TreatmentRepo;
 import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
 public class BookedServiceImpl implements BookedServices {
 
 	private final BookingRepo bookingRepo;

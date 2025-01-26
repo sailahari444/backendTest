@@ -10,7 +10,7 @@ import com.myWebApplication.GlowStudio.repository.UserRepo;
 import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
 
 	private final UserRepo userRepo;

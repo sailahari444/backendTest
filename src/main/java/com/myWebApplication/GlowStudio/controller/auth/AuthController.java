@@ -45,14 +45,14 @@ public class AuthController {
 	
 	private final UserService userService;
 
-	public AuthController(AuthService authService, AuthenticationManager authManager,UserRepo userRepo, JwtUtil jwtUtil, UserService userService) {
-	
-		this.authService = authService;
-		this.authManager = authManager;
-		this.userRepo = userRepo;
-		this.jwtUtil = jwtUtil;
-		this.userService = userService;
-	}
+//	public AuthController(AuthService authService, AuthenticationManager authManager,UserRepo userRepo, JwtUtil jwtUtil, UserService userService) {
+//
+//		this.authService = authService;
+//		this.authManager = authManager;
+//		this.userRepo = userRepo;
+//		this.jwtUtil = jwtUtil;
+//		this.userService = userService;
+//	}
 	
 	@PostMapping("/signup")
 	public ResponseEntity<?> singupUser(@RequestBody SignupRqst signupRqst){

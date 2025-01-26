@@ -25,10 +25,10 @@ public class BookingController {
      	
      	
      	
-     	public BookingController(BookingService bookingService) {
-			super();
-			this.bookingService = bookingService;
-		}
+//     	public BookingController(BookingService bookingService) {
+//			super();
+//			this.bookingService = bookingService;
+//		}
 
 
 

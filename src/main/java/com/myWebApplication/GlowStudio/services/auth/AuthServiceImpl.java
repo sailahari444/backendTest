@@ -16,7 +16,7 @@ import jakarta.persistence.EntityExistsException;
 import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
 public class AuthServiceImpl implements AuthService {
 
 	private final UserRepo userRepo;

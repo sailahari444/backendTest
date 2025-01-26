@@ -14,7 +14,7 @@ import com.myWebApplication.GlowStudio.repository.TreatmentRepo;
 import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
 public class SalonServiceImpl implements SalonService{
 
 	private final TreatmentRepo treatmentRepo;

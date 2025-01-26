@@ -17,10 +17,10 @@ public class SalonController {
 
 	private final SalonService salonService;
 
-	public SalonController(SalonService salonService) {
-		super();
-		this.salonService = salonService;
-	}
+//	public SalonController(SalonService salonService) {
+//		super();
+//		this.salonService = salonService;
+//	}
 	
 	@GetMapping("/treatment/{pageNo}")
 	public ResponseEntity<?> getAvailableServices(@PathVariable int pageNo){
